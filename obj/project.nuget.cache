@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "S4RGxlVK4PiMfcAYhSYru7Yll8VkJi2MeyJW6Hmx4KxIO/QFZDsSqSlUf/4l5UePxY0h3yrb0FJv2NwtnX2j0g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\egorp\\source\\repos\\CalculatorCLI\\CalculatorCLI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\egorp\\.nuget\\packages\\commandlineparser\\2.9.1\\commandlineparser.2.9.1.nupkg.sha512"
+  ],
+  "logs": []
+}

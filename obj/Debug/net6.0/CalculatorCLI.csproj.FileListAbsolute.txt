@@ -1,0 +1,17 @@
+C:\Users\egorp\source\repos\CalculatorCLI\bin\Debug\net6.0\CalculatorCLI.exe
+C:\Users\egorp\source\repos\CalculatorCLI\bin\Debug\net6.0\CalculatorCLI.deps.json
+C:\Users\egorp\source\repos\CalculatorCLI\bin\Debug\net6.0\CalculatorCLI.runtimeconfig.json
+C:\Users\egorp\source\repos\CalculatorCLI\bin\Debug\net6.0\CalculatorCLI.dll
+C:\Users\egorp\source\repos\CalculatorCLI\bin\Debug\net6.0\CalculatorCLI.pdb
+C:\Users\egorp\source\repos\CalculatorCLI\bin\Debug\net6.0\CommandLine.dll
+C:\Users\egorp\source\repos\CalculatorCLI\obj\Debug\net6.0\CalculatorCLI.csproj.AssemblyReference.cache
+C:\Users\egorp\source\repos\CalculatorCLI\obj\Debug\net6.0\CalculatorCLI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\egorp\source\repos\CalculatorCLI\obj\Debug\net6.0\CalculatorCLI.AssemblyInfoInputs.cache
+C:\Users\egorp\source\repos\CalculatorCLI\obj\Debug\net6.0\CalculatorCLI.AssemblyInfo.cs
+C:\Users\egorp\source\repos\CalculatorCLI\obj\Debug\net6.0\CalculatorCLI.csproj.CoreCompileInputs.cache
+C:\Users\egorp\source\repos\CalculatorCLI\obj\Debug\net6.0\CalculatorCLI.csproj.CopyComplete
+C:\Users\egorp\source\repos\CalculatorCLI\obj\Debug\net6.0\CalculatorCLI.dll
+C:\Users\egorp\source\repos\CalculatorCLI\obj\Debug\net6.0\refint\CalculatorCLI.dll
+C:\Users\egorp\source\repos\CalculatorCLI\obj\Debug\net6.0\CalculatorCLI.pdb
+C:\Users\egorp\source\repos\CalculatorCLI\obj\Debug\net6.0\CalculatorCLI.genruntimeconfig.cache
+C:\Users\egorp\source\repos\CalculatorCLI\obj\Debug\net6.0\ref\CalculatorCLI.dll
