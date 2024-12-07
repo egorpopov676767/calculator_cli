@@ -1,10 +1,10 @@
-using System.Numerics;
+﻿using System.Numerics;
 
 namespace CalculatorCLI;
 
-public class AddCommand : Command
+public class DivideCommand : Command
 {
-    public override string Name => "add";
+    public override string Name => "div";
 
     public override void ProcessArguments(string[] commandArgs)
     {
@@ -26,9 +26,10 @@ public class AddCommand : Command
         if (commandArgs.Length == 0)
             return;
 
+        var isFirstValue = true;
         if (commandArgs[0] == "-f" || commandArgs[^1] == "-f")
         {
-            double sum = 0;
+            double res = 1;
             foreach (var arg in commandArgs.Where(arg => arg != "-f"))
             {
                 var parsed = double.TryParse(arg, out var value);
@@ -37,17 +38,30 @@ public class AddCommand : Command
                     if (ns == NumberType.All ||
                         ns == NumberType.Odd && (value % 2 == 1 || value % 2 == -1) ||
                         ns == NumberType.Even && value % 2 == 0)
-                        sum += value;
+                    {
+                        if (isFirstValue)
+                        {
+                            res = value;
+                            isFirstValue = false;
+                        }
+                        else
+                        {
+                            if (value == 0)
+                                Console.WriteLine("Деление на ноль запрещено");
+                            else
+                                res /= value;
+                        }
+                    }
                 }
                 else
                     Console.WriteLine($"Некорректное значение: {arg}");
             }
 
-            Console.WriteLine(sum);
+            Console.WriteLine(res);
         }
         else
         {
-            BigInteger sum = 0;
+            BigInteger res = 1;
             foreach (var arg in commandArgs)
             {
                 var parsed = BigInteger.TryParse(arg, out var value);
@@ -56,13 +70,26 @@ public class AddCommand : Command
                     if (ns == NumberType.All ||
                         ns == NumberType.Odd && (value % 2 == 1 || value % 2 == -1) ||
                         ns == NumberType.Even && value % 2 == 0)
-                        sum += value;
+                    {
+                        if (isFirstValue)
+                        {
+                            res = value;
+                            isFirstValue = false;
+                        }
+                        else
+                        {
+                            if (value == 0)
+                                Console.WriteLine("Деление на ноль запрещено");
+                            else
+                                res /= value;
+                        }
+                    }
                 }
                 else
                     Console.WriteLine($"Некорректное значение: {arg}");
             }
 
-            Console.WriteLine(sum);
+            Console.WriteLine(res);
         }
     }
 }

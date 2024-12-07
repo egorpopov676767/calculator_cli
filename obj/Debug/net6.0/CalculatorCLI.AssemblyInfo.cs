@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CalculatorCLI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a8fff1a8a0f9f503cdac37fe554743e9b3f877c4")]
 [assembly: System.Reflection.AssemblyProductAttribute("CalculatorCLI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CalculatorCLI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
